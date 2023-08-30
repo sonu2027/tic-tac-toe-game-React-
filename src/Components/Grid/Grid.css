@@ -1,0 +1,23 @@
+.grid{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.turn-highlight{
+    color: #fff;
+}
+.reset{
+    background-color: var(--yellow);
+    padding: 4px 8px;
+    border: 1px solid var(--yellow);
+    color: #fff;
+    border-radius: 4px;
+}
+.reset:hover{
+    cursor: pointer;
+    color: var(--yellow);
+    background-color:#fff;
+}
